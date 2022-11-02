@@ -109,3 +109,18 @@ h3{
     width: 100%;
     height: auto;
 }
+h5{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0px 15px 0;
+    text-align: justify;
+}
+h4{
+    width: 90%;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0px 15px 0;
+    text-align: justify;
+}
