@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Montserrat+Alternates:wght@100;300&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+html{
+    background-color: #202629;
+    height: auto;
+}
+.footerInformation{
+    position: fixed;
+    bottom: 0;
+    left: 2.5%;
+    z-index: 10;
+    height: 90px;
+    width: 95%;
+    background-color: #13141463;
+    border-radius: 20px 20PX 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    height: 50%;
+    width: 20%;
+    background:none ;
+    border: none;
+}
+button img{
+    height: 100%;
+}
+.es{
+    height: 70%;
+}
+.secction{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 10%;
+}
+.secction2{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 10%;
+}
+h2{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 100;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 2px ;
+    font-family: "Exo 2", sans-serif;
+    font-size: 40px;
+    padding-left: 8px;
+    border-left: solid 10px #EB4960;
+}
+main{
+    padding: 15px;
+    height: 79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 2.5px 10px 2.5px 10px;
+    border: solid 1px #EB4960;
+    border-radius: 10px;
+}
+h3{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px 0px 15px 0;
+}
+.nosotros{
+    height: 110px;
+}
+.one{
+    text-align: left;
+}
+.one2{
+    text-align: right;
+}
+.logos{
+    width: 45%;
+    margin-top: 30px;
+}
+.pro{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
